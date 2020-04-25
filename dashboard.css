@@ -331,11 +331,14 @@ font-size: 20px;
 /* Mobile view*/
 @media only screen and (max-width: 768px) {
       #messages #messages_one .well-sm {
-           height: 95px;
+           height: auto;
            
     
       }
     
+    #messages #messages_one{
+        text-align: center;
+    }
 }
 
 
