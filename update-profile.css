@@ -46,6 +46,11 @@ nav{
 }
 
 
+#update_profile #update_profile_one ::placeholder{
+    color: black;
+}
+
+
 
 #update_profile #update_profile_one .btn{
     background-color:  #ff0000;
