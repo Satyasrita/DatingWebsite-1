@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+
+#update_profile{
+    background-image: url(images/backgroungd-image-profileUpadte.jpg);
+    background-position: center;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    text-align: center;
+}
+#update_profile #bt{
+
+    margin-top: 30px;
+     color:  #ff0000;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+#update_profile h2{
+        color: #f70f25;
+        font-weight: bold;
+        margin-top: 50px;
+    
+    }
+
+
+#update_profile #update_profile_one{
+    text-align: center;
+    opacity: 0.6;
+    background-color: black;
+    border-radius: 30px;
+    margin: 50px 140px 3px;
+    
+}
+
+
+
+#update_profile #update_profile_one .btn{
+    background-color:  #ff0000;
+    color: white;
+    width: 100%;
+}
+#update_profile #update_profile_one P{
+    color: #ff0000;
+    font-size: 12px;
+}
+
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #update_profile{
+        margin-top: 30px;
+    }
+    
+    #update_profile h2{
+        margin-top: 60px;
+    }
+    
+    #update_profile #update_profile_one{
+        margin: 0px 20px;
+    }
+    
+    
+}
