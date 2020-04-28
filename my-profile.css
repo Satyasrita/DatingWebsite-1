@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Navigation Bar*/
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default{
+   background-color: transparent;
+    margin-top: 25px;
+    border-radius: 0px;
+    
+}
+
+nav #my_profile{
+    margin-top: 30px;
+}
+
+
+#my_profile #dashboard_bt{
+    color: #e6b800;
+    font-size: 21px;
+    background-color: transparent;
+}
+
+
+#my_profile #myprofile_bt{
+    color: #e6b800;
+    background-color: transparent;
+    font-size: 16px;
+    border-color: transparent;
+}
+#my_profile #myprofile_bt span{
+    color: black;
+    background-color: #ff0000;
+}
+#my_profile #navbar-text{
+     color: #e6b800;
+    float: right;
+}
+
+
+/* For Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #my_profile #navbar-text{
+        margin-top: -30px;
+       
+    }
+    
+}
+
+
+
+/* Side Navigation Bar*/
+
+#myprofile_row{
+    margin-top: -17px;
+  
+}
+
+#myprofile_sidenav{
+      text-align: center;
+    
+}
+
+#myprofile_sidenav .img-thumbnail{
+      border: 3px solid #e6b800;
+    
+}
+
+#myprofile_sidenav h5{
+    color: #e6b800;
+    font-weight: bold;
+}
+#myprofile_sidenav p{
+    font-size: 13px;
+    color: black;
+     
+}
+#myprofile_sidenav p span{
+     color: #595959;
+}
+
+
+
+
+/* Side Body*/
+#myprofile_sidebody{
+    text-align: left;
+    
+}
+
+#myprofile_sidebody p{
+    color:  #595959;
+}
+#myprofile_sidebody p i{
+    color: #4c89bf;
+}
+
+#myprofile_sidebody #upadte_info{
+    background-color: #f70f25;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#myprofile_sidebody #myprofile_sidebody_one h4{
+      color: #4c89bf;
+}
+
+
+
+
+/* For Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #myprofile_sidebody{
+        margin-left: 20px;
+    }
+}
+
+/* Side Body (social link)*/
+
+#myprofile_sidebody #myprofile_sidebody_two {
+    float: right;
+}
+
+#myprofile_sidebody_two ul{
+         list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          
+}
+#myprofile_sidebody_two ul li{
+    float: left;
+    
+}
+
+#myprofile_sidebody_two ul li a i{
+        display: block;
+        color: #ff0000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
