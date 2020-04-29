@@ -35,7 +35,7 @@ nav #my_profile{
     border-color: transparent;
 }
 #my_profile #myprofile_bt span{
-    color: black;
+    color: white;
     background-color: #ff0000;
 }
 #my_profile #navbar-text{
@@ -51,6 +51,11 @@ nav #my_profile{
     #my_profile #navbar-text{
         margin-top: -30px;
        
+    }
+    
+    #my_profile #bell-icon{
+        margin-left: 44px;
+        margin-bottom: 0px;
     }
     
 }
