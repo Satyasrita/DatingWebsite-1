@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#upgrade{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#upgrade h3{
+   color: #e6b800;
+    font-weight: bold;
+}
+
+#upgrade h4{
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 7px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 30%;
+        margin: 0px auto;
+        border: 1px solid black;
+   }
+
+#upgrade p i{
+    color: #e6b800;
+    font-size: 18px;
+}
+
+#upgrade p{
+    color: #404040;
+}
+
+#upgrade .btn{
+    margin: 10px 0px;
+    background-color: #e6b800;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+#upgrade .btn i{ 
+    color: #ff0000;
+}
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #upgrade h4{
+        width: 100%;
+    }
+}

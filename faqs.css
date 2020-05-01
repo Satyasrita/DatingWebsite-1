@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+#faqs{
+   
+    margin: 60px auto;
+    
+}
+#faqs h3, h4{
+    color:  #e6b800;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panel-default > .panel-heading {
+    color: #7389ce;
+
+
+}
+
+.panel-group .panel {
+    margin-bottom: 18px;
+
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #faqs{
+   
+    margin: 60px 0px 20px 0px ;
+    
+}
+    
+    
+}
