@@ -195,3 +195,1175 @@ nav{
     color: #8f00b3;
     font-size: 16px;
 }
+
+
+
+/* Index(HomePage) */
+
+/* Carousel*/
+
+#myCarousel{
+    margin-top: 30px;
+}
+
+#myCarousel img{
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-caption h3{
+    color: #e6b800;
+    font-weight: bold;
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #myCarousel img{
+        height: 100%;
+        width: 100%;
+        }
+    
+}
+
+/* About Us*/
+#about_us{
+    margin: 20px 80px;
+    text-align: center;
+                                                          
+}
+#about_us h2{
+    color: #ff0000;
+    font-weight: bold;
+   
+}
+
+#about_us p{
+    font-style: italic;
+    color:  #595959;
+}
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #about_us{
+        margin: auto;
+    }
+}
+
+
+/* Process*/
+#process{
+    background-color:   #e6b800;
+    text-align: center;
+   
+}
+
+#process h2{
+    color: white;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+#process .icon_bar > i{
+    color:  #ff0000;
+    font-size: 50px;
+    
+}
+#process .icon_bar h4{
+    
+    color: white;
+    font-size: 25px;
+}
+
+#process .icon_bar{
+         border: 1px solid black;
+            border-radius: 27px;
+            background-color: black;
+            padding: 40px 0px;
+            margin-bottom: 40px;
+
+         
+      }
+
+
+/* Online Member*/
+#online_member{
+    text-align: center;
+    margin: 40px 0px;
+}
+#online_member h2{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#online_member img{
+    height: 230px;
+    width: 200px;
+}
+
+#online_member .btn{
+        background-color: #e6b800;
+        color: black;
+        border-radius: 23px;
+        padding: 13px;
+        margin: 20px;
+        font-size: 16px;
+    border: 1px solid  red;
+}
+#online_member .btn:focus {
+    background-color: #e6b800;
+    color: white;
+    border: 1px solid  #ff0000;
+}
+
+#online_member p{
+    color: #00b8e6;
+}
+
+/* Play store*/
+
+#play_store{
+    background-image: url(images/jonathan-borba-42c1mYABhLc-unsplash.jpg);
+    height: auto;
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+}
+#play_store h2{
+    color: white;
+    font-weight: bold;
+}
+
+#play_store .btn{
+       background-color: #ffa700;
+       padding: 17px;
+       margin: 11px;
+       color: white;
+      width: 80%;
+      font-size: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+/* Testimonial */
+#testimonial{
+    text-align: center;
+    
+}
+
+#testimonial h2{
+     color: #ff0000;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#testimonial .row{
+    margin: 10px 100px;
+    background-color: antiquewhite;
+     border-radius: 10px;
+    padding: 10px 0px;
+}
+
+#testimonial .row p{
+    color: #808080;
+}
+
+#testimonial .col-sm-4{
+    
+   
+
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #testimonial .row{
+       margin: auto;
+  }
+}
+
+
+/* Contact(Feedback) */
+
+#feedback{
+    text-align: center;
+}
+
+#feedback .row{
+    margin: 50px 80px 10px 80px;
+}
+
+#feedback h2{
+    font-weight: bold;
+    color: #ff0000;
+    
+}
+
+#feedback i{
+    font-size: 50px;
+    color:  #ffa700;
+}
+#feedback h5{
+    color:  #808080;
+    
+}
+
+#feedback .btn{
+    background-color:  #ffa700;
+    color: white;
+    font-size: 17px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: bold;
+    width: 50%;
+}
+
+
+/* Mobile view*/
+
+@media only screen and (max-width: 768px) {
+    #feedback .btn{
+       width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Registration */
+#register{
+    
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#register h1{
+    font-weight: bold;
+    color:  #e6b800;
+    font-size: 30px;
+    margin-top: 100px;
+}
+#register h2{
+     font-weight: bold;
+    color:  #e6b800;
+    font-size: 20px;
+}
+#register .page1{
+ 
+    text-align: center;
+}
+#register .page1 .r1{
+       border: 0px solid #ff33ff;
+       border-top-right-radius: 315px;
+        border-bottom-left-radius: 315px;
+       background-image: linear-gradient( #ffccd5 ,#cce6ff);
+    }
+
+
+#register .page1 .form-control{
+      width: 300px;
+      height: 28px;
+       border: 1px solid #e6b800;
+       border-radius: 20px;
+}
+#register .page1 form{
+    text-align: center;
+   
+}
+#register .page1 form .btn{
+
+width: 200px;
+text-align: center;
+background-color: #e6b800;
+color: black;
+border-radius: 20px;
+    font-weight: bold;
+}
+
+#register .page1 form .form-group select{
+    margin-left: 17px;
+}
+
+
+#register .page1 .image1{
+    height: 100%;
+    width: 80%;
+    border-bottom-left-radius: 150px;
+}
+.form-horizontal .control-label{
+    color: #00b8e6;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* For Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #register h1{
+    margin-top: 70px;
+}
+    
+ #register .page1 .form-control{
+    width: 100%;
+      height: auto;
+}
+    
+    #register .page1 form{
+          text-align: center;
+          margin: auto;
+     }
+
+    #register .page1 form .btn{
+        width: 100%;
+        height: auto;
+       
+    }
+    #register .page1 form .form-group select{
+         margin: auto;
+        width: 100%;
+}
+
+    #register .page1 .r1{
+              border-radius: 60px;
+            
+    }
+    #register .page1 .image1{
+       border-bottom-left-radius: 0px;
+     }
+    
+    
+}
+
+
+
+
+/* Login*/
+/* sign up*/
+
+#login{
+       background-image: url(images/jonathan-leppan-RrDJy-bupZg-unsplash.jpg);
+        height:auto;
+       background-position: center;
+       width: auto;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: auto;
+}
+
+#login #login_one #signup-btn{
+   background-color: #ff0000;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+#login-row{
+    margin: 100px 0px;
+}
+
+
+#login #login_one{
+    
+    text-align: center;
+     padding: 62px 50px;
+     background-color: black;
+     opacity: 0.7;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+     #login #login_one{
+        border-radius: 30px;
+        margin: 80px 40px 10px 40px;
+    }
+    #login{
+        padding-bottom: 50px;
+    }
+    #login-row{
+        margin: 0px;
+    }
+    
+}
+
+
+/* sign up*/
+#login #login_two{
+    background-color: ;
+   
+     padding: 28px 50px;
+    background-color: #d08383;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+#login_two #login-submit{
+    background-color: #e6b800;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#login_two h4{
+    color: #e6b800;
+    font-weight: bold
+    
+}
+
+#login_two #login-social ul{
+      list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+    
+}
+#login_two #login-social ul li{
+    float: left;
+    
+}
+
+#login_two #login-social ul li a i{
+        display: block;
+        color: #ff0000;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 20px;
+    
+}
+
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #login #login_two{
+        border-radius: 30px;
+        margin: 0px 40px 0px 40px;
+        opacity: 0.8;
+    }
+    
+}
+
+
+
+
+
+/* Dashboard*/
+
+
+/* Buttons*/
+
+#button_one{
+     margin-top: 31px;
+     background-color: #d76275;
+}
+
+#button_one #b1{
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: -12px;
+}
+#button_one #b1 #discount{
+    background-color:  #e6b800;
+    text-decoration: none;
+    color:  #ffffff;
+   padding: 9px 9px;
+   border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  }
+
+
+#button_one #b2{
+   float: right;
+   margin-top: -13px;
+}
+
+
+#button_one #b2 #profile{
+    background-color:   #e6b800;
+    color:  #ffffff;
+    font-size: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #button_one{
+    margin-top: 53px;
+}
+    #button_one #b1{
+        text-align: left;
+        margin-left: 0pxpx;
+}
+    
+    
+}
+
+
+/* Side Nav*/
+
+ #r1{
+    margin-top: -3px;
+}
+.row #side_nav{
+    background-image: linear-gradient(#d76275,#cce6ff);
+    height: 100%;
+    width: auto;
+    text-align: center;
+   
+}
+
+.row #side_nav .nav-pills > li > a {
+    border-radius: 4px;
+    padding: 13px 12px;
+    color: #4c89bf;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 60px;
+    
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+    background-color:#ffb3b3;
+    border: 1px solid #e6b800;
+    
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    .row #side_nav .nav-pills > li > a{
+        padding: 8px 0px;
+    }
+    
+}
+
+/* Icons*/
+#side_nav .row #icons{
+    
+    
+}
+
+#side_nav .row #icons i{ 
+    display: block;
+    padding: 18px 0px 11px 10px;
+    font-size: 18px;
+    color: #e6b800;
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #side_nav .row #icons i{ 
+    
+        padding: 10px 0px;
+    
+    }
+}
+
+
+
+/* Matches*/
+
+/*Profile Details*/
+
+#matches #details1{
+    margin-top: 50px;
+    
+    
+}
+#matches #details1 p i{
+    color: #009900;
+    
+}
+
+#matches #details1 p{
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+#details1 h3{
+    text-decoration: underline;
+    color:#e6b800
+}
+#matches #details2 a{
+    display: block;
+padding: 12px;
+font-size: 20px;
+}
+
+#matches #details2  button{
+    border-radius: 50px;
+}
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #matches #matches_one{
+        text-align: center;
+    }
+    #matches #matches_one #details1 img{
+        text-align: center;
+    }
+    
+}
+
+
+
+/* New And Online*/
+
+#new_and_online{
+    text-align: center;
+}
+
+#new_and_online #new_online{
+    margin-top: 48px;
+}
+
+#new_online .logged-in{
+    color: green;
+    font-size: larger;
+}
+
+
+ #new_online .logged-out{
+    color: red;
+    font-size: larger;
+}
+#new_online .well-sm {
+
+    background-color: #ffe680;
+    color: #003566;
+    border-top-left-radius: 60px;
+    box-shadow: 10px 10px 5px #c69a9a;
+}
+#new_online .well-sm p{
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+
+#new_online .well-sm  .btn{
+       background-color: #00b300;
+       color: white;
+       border-top-left-radius: 60px;
+       border-bottom-right-radius: 60px;
+       width: auto;
+}
+
+
+/* Search*/
+
+#search #search_one{
+    text-align: center;
+}
+#search label{
+    color: 	 #3d76a9;
+    
+}
+
+#search h3{
+    color: #e6b800;
+}
+
+#search #search_one .btn{
+     background-color: #e6b800;
+     color: white;
+    font-weight: bold;    
+    width: 100%;
+    border-radius: 30px;
+}
+
+#search #search_one .form-control{
+    border: 1px solid #e6b800;
+    border-radius: 30px;
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #search #search_one .btn{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+/* Interest Bosster*/
+
+#interest_booster #interest_booster_one{
+     text-align: center
+}
+#interest_booster #interest_booster_one h3{
+      color: #e6b800;
+}
+#interest_booster{
+    margin-top: 80px;
+}
+#interest_booster #interest_booster_one p{
+      font-size: 17px;
+     
+}
+#interest_booster #interest_booster_one .btn{
+         color: white;
+         border-radius: 30px;
+         background-color: #e6b800;
+         font-size: 19px;
+    
+}
+#interest_booster #interest_booster_one i{
+    
+    font-size: 17px;
+    color: black;
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #interest_booster{
+         margin-top: 40px;
+     }
+    
+    #interest_booster{
+         margin-bottom: 10px;
+     }
+    
+}
+
+
+
+/* Message */
+
+#messages h3{
+    color: #e6b800;
+}
+
+#messages .logged-in{
+    color: green;
+    font-size: larger;
+}
+
+
+ #messages .logged-out{
+    color: red;
+    font-size: larger;
+}
+
+#messages #messages_one .well-sm {
+    height: 68px;
+    
+    
+  }
+#messages #messages_one .well{
+    background-color: transparent;
+    margin-bottom: 12px;
+    border: none;
+}
+
+
+#messages #messages_one .row .seen_time p{
+    color: #4c89bf;
+}
+#messages a{
+    text-decoration: none;
+}
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+      #messages #messages_one .well-sm {
+           height: auto;
+           
+    
+      }
+    
+    #messages #messages_one{
+        text-align: center;
+    }
+}
+
+
+
+
+/* My Profile */
+/* Navigation Bar*/
+
+
+.navbar-default{
+   background-color: transparent;
+    margin-top: 25px;
+    border-radius: 0px;
+    
+}
+
+nav #my_profile{
+    margin-top: 30px;
+}
+
+
+#my_profile #dashboard_bt{
+    color: #e6b800;
+    font-size: 21px;
+    background-color: transparent;
+}
+
+
+#my_profile #myprofile_bt{
+    color: #e6b800;
+    background-color: transparent;
+    font-size: 16px;
+    border-color: transparent;
+}
+#my_profile #myprofile_bt span{
+    color: white;
+    background-color: #ff0000;
+}
+#my_profile #navbar-text{
+     color: #e6b800;
+    float: right;
+}
+
+
+/* For Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #my_profile #navbar-text{
+        margin-top: -30px;
+       
+    }
+    
+    #my_profile #bell-icon{
+        margin-left: 44px;
+        margin-bottom: 0px;
+    }
+    
+}
+
+
+
+/* Side Navigation Bar*/
+
+#myprofile_row{
+    margin-top: -17px;
+  
+}
+
+#myprofile_sidenav{
+      text-align: center;
+    
+}
+
+#myprofile_sidenav .img-thumbnail{
+      border: 3px solid #e6b800;
+    
+}
+
+#myprofile_sidenav h5{
+    color: #e6b800;
+    font-weight: bold;
+}
+#myprofile_sidenav p{
+    font-size: 13px;
+    color: black;
+     
+}
+#myprofile_sidenav p span{
+     color: #595959;
+}
+
+
+
+
+/* Side Body*/
+#myprofile_sidebody{
+    text-align: left;
+    
+}
+
+#myprofile_sidebody p{
+    color:  #595959;
+}
+#myprofile_sidebody p i{
+    color: #4c89bf;
+}
+
+#myprofile_sidebody #upadte_info{
+    background-color: #f70f25;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#myprofile_sidebody #myprofile_sidebody_one h4{
+      color: #4c89bf;
+}
+
+
+
+
+/* For Mobile View */
+
+
+@media only screen and (max-width: 768px) {
+    #myprofile_sidebody{
+        margin-left: 20px;
+    }
+}
+
+/* Side Body (social link)*/
+
+#myprofile_sidebody #myprofile_sidebody_two {
+    float: right;
+}
+
+#myprofile_sidebody_two ul{
+         list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          
+}
+#myprofile_sidebody_two ul li{
+    float: left;
+    
+}
+
+#myprofile_sidebody_two ul li a i{
+        display: block;
+        color: #ff0000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 35px;
+    
+}
+
+
+
+
+
+/* Update Profile*/
+
+#update_profile{
+    background-image: url(images/backgroungd-image-profileUpadte.jpg);
+    background-position: center;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    text-align: center;
+}
+#update_profile #bt{
+
+    margin-top: 30px;
+     color:  #ff0000;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+#update_profile h2{
+        color: #f70f25;
+        font-weight: bold;
+        margin-top: 50px;
+    
+    }
+
+
+#update_profile #update_profile_one{
+    text-align: center;
+    opacity: 0.6;
+    background-color: black;
+    border-radius: 30px;
+    margin: 50px 140px 3px;
+    
+}
+
+
+#update_profile #update_profile_one ::placeholder{
+    color: black;
+}
+
+
+
+#update_profile #update_profile_one .btn{
+    background-color:  #ff0000;
+    color: white;
+    width: 100%;
+}
+#update_profile #update_profile_one P{
+    color: #ff0000;
+    font-size: 12px;
+}
+
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #update_profile{
+        margin-top: 30px;
+    }
+    
+    #update_profile h2{
+        margin-top: 60px;
+    }
+    
+    #update_profile #update_profile_one{
+        margin: 0px 20px;
+    }
+    
+    
+}
+
+
+
+
+
+/* Upgrade */
+#upgrade{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#upgrade h3{
+   color: #e6b800;
+    font-weight: bold;
+}
+
+#upgrade h4{
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 7px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 30%;
+        margin: 0px auto;
+        border: 1px solid black;
+   }
+
+#upgrade p i{
+    color: #e6b800;
+    font-size: 18px;
+}
+
+#upgrade p{
+    color: #404040;
+}
+
+#upgrade .btn{
+    margin: 10px 0px;
+    background-color: #e6b800;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+#upgrade .btn i{ 
+    color: #ff0000;
+}
+
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    
+    #upgrade h4{
+        width: 100%;
+    }
+}
+
+
+
+/* Forgot password */
+
+#forgot_password{
+    
+    text-align: center;
+}
+
+#forgot_password_one{
+    
+    margin-top: 90px ;
+    margin-bottom: 90px;
+}
+
+#forgot_password_one h3{
+    color: #e6b800;
+    font-weight: bold;
+}
+#forgot_password_one p{
+    color: #8c8c8c;
+    
+}
+
+#forgot_password_one #forgot-submit{
+    background-color:  #e6b800;
+    color: white;
+    width: 100%;
+}
+
+
+/* Faqs*/
+
+#faqs{
+   
+    margin: 60px auto;
+    
+}
+#faqs h3, h4{
+    color:  #e6b800;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panel-default > .panel-heading {
+    color: #7389ce;
+
+
+}
+
+.panel-group .panel {
+    margin-bottom: 18px;
+
+}
+
+/* Mobile view*/
+@media only screen and (max-width: 768px) {
+    #faqs{
+   
+    margin: 60px 0px 20px 0px ;
+    
+}
+    
+    
+}
+
+
+
+
+
+
